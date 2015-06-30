@@ -2,7 +2,7 @@
 
 1. Install Node JS on your machine. Check it by writing command `npm -version` in command prompt.
 
-2. Since windows box does not support latest version of Protractor so we have to install an older version but before that make sure you have uninstalled existing Protractor(if you ever installed it, otherwise skip) writing command:
+2. Since windows box does not support latest version of Protractor so we have to install an older version but before that make sure you have uninstalled existing Protractor(if you ever installed it, otherwise skip) by writing command:
 
 ```
 npm uninstall -g protractor
@@ -24,7 +24,7 @@ npm install -g protractor
 
 4. Install mocha globally by writing command `npm install -g mocha`. This is only required if you want to use Mocha as test framework.Otherwise you can skip this step.
 
-5. If you have installed everything as per instructaions then to run the first test navigate to root directory of project. For e.g. 
+5. If you have installed everything as per instructaions then to run the first test by navigating to root directory of project. For e.g. 
 
 ```
 cd protractor-demo
@@ -35,6 +35,6 @@ protractor conf.js
 
 # Unit Testing Framework
 
-The basic installation of Protractor installs Jasmin Framework. In case you need `Mocha` then install it globally as per setp-4. To use Mocha, you have to configure it in `cong.js`.
+The basic installation of Protractor installs Jasmin Framework. In case you need `Mocha` then install it globally as per step-4. To use Mocha, you have to configure it in `cong.js`.
 
 Otherwise Protractor will use Jasmine as default to run tests.
